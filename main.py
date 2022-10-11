@@ -1,5 +1,13 @@
-
 numbers = list(map(int, input().split()))
+
+avging = sum(numbers) / len(numbers)
+
+diff_avg = []
+for i in range(len(numbers)):
+    diff = abs(number[i] - avging)
+    diff_avg.append(diff)
+
+print(*diff_avg, sep = ' ')
 
 # ******************************
 # Make your Code
